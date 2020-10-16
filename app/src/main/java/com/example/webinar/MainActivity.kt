@@ -1,5 +1,6 @@
 package com.example.webinar
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -24,6 +25,10 @@ class MainActivity : AppCompatActivity() {
                 .addOnFailureListener{
                     Toast.makeText(this,"Failure To Save Data",Toast.LENGTH_SHORT).show()
                 }
+        }
+        but.setOnClickListener{
+            val intent = Intent(this, DataFetch::class.java)
+            startActivity(intent)
         }
     }
 }
