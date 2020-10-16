@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "210793329915",
+    "firebase_url": "https://webinar-9e677.firebaseio.com",
+    "project_id": "webinar-9e677",
+    "storage_bucket": "webinar-9e677.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210793329915:android:f61f0ba118d551bab6ec5e",
+        "android_client_info": {
+          "package_name": "com.example.webinar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210793329915-ttdo7rh75k72mv27mqk9nd00bd1s793d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAwVzwZHqVZLhIoAzbFXUEOf8EqF2AYYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210793329915-ttdo7rh75k72mv27mqk9nd00bd1s793d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
